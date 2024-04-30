@@ -1,6 +1,6 @@
   
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Lilita+One&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 :root {
   --primary: #000000;
   --secondary:#710404;
@@ -27,9 +27,8 @@ h1.hero-heading {
   font-size: 4rem;
   font-weight: 800;
   color: white;
-  font-family: "Playfair Display", serif;
+  font-family: "Tinos", serif;
   -webkit-text-stroke: white;
-  font-family: "Lilita One", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -38,8 +37,7 @@ h2.sec-heading {
   font-size: 2.5rem;
   font-weight: 800;
   color: var(--primary);
-  font-family: "Playfair Display", serif;
-  font-family: "Lilita One", sans-serif;
+  font-family: "Tinos", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -48,7 +46,7 @@ h3.sub-sec-heading {
   font-size: 1.4rem;
   font-weight: 700;
   color: var(--primary);
-  font-family: "Playfair Display", serif;
+  font-family: "Tinos", serif;
 }
 
 .section-wrapper {
