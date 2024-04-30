@@ -1,0 +1,247 @@
+  
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Lilita+One&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --primary: #000000;
+  --secondary:#710404;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Volkhov", serif;
+  color: rgb(61, 61, 61);
+}
+#about-us, #what-makes-us-unique , #what-we-do, #non-recourse-loan, #projects, #contact-us{
+  height: 20px;
+}
+
+.page-wrapper {
+  background-image: url("../Images/bg-img.png");
+}
+
+h1.hero-heading {
+  font-size: 4rem;
+  font-weight: 800;
+  color: white;
+  font-family: "Playfair Display", serif;
+  -webkit-text-stroke: white;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2.sec-heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--primary);
+  font-family: "Playfair Display", serif;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3.sub-sec-heading {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--primary);
+  font-family: "Playfair Display", serif;
+}
+
+.section-wrapper {
+  margin: 50px 0px;
+  padding: 60px 0;
+}
+
+p {
+  color: rgb(101, 101, 101);
+}
+
+/* Call to Action Section */
+.CTA-section {
+  background-color: #710404;
+
+}
+.submit-btn{
+  background-color:white !important;
+  color: #710404 !important;
+  border-radius: 0px;
+}
+.CTA-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CTA-button a {
+  background-color: transparent;
+  border: none;
+  padding: 8px 30px;
+  border: 1px solid white;
+  background-color: #710404;
+  text-decoration: none;
+  transition: 0.2s;
+  color: white !important;
+}
+.CTA-button a:hover{
+  background-color: white;
+  color: #710404!important;
+}
+@media (max-width:991px) {
+  .CTA-button a{
+    padding: 5px 15px ;
+    font-size: 14px;
+  }
+}
+
+/* Hearo header section starts here */
+.hero-header-container{
+  width: 100%;
+  height: 100vh;
+  background-color: var(--primary);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0,0.65)), url(../Images/BannerImage.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 15px;
+}
+
+.hero-header-shape{
+  color: var(--primary);
+  fill: white;
+  position: absolute;
+  bottom: -2px;
+  rotate: 180deg;
+  left: 0;
+  width: 100%;
+  transform: translatey(1px);
+}
+.hero-header-container .content h1{
+  font-size: 64px;
+  font-weight: bold;
+  color: #FF0D0D;
+}
+.hero-header-container .content h4{
+  color: var(--secondary);
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+}
+@media (max-width:991px) {
+  .hero-header-container .content h4{
+    color: var(--secondary);
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
+  } 
+  .hero-header-container .content h1{
+    margin: 5px
+  }
+}
+@media (max-width:991px) {
+
+
+  h1.hero-heading {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 20px 10px 10px 10px;
+  }
+
+  h2.sec-heading {
+    font-size: 1.8rem;
+  }
+
+  h3.sub-sec-heading {
+    font-size: 1.2rem;
+  }
+
+  .section-wrapper {
+    margin: 20px 0px;
+    padding: 40px 0;
+  }
+
+  /* Hero header Section Css */
+  .hearo-header-containers p {
+    margin: 10px;
+  }
+
+  .container #header-carousel.owl-carousel .owl-item {
+
+    height: 100%;
+  }
+  .logo-header{
+    position: static;
+  }
+  .logo-header img{
+    width: 110px;
+    height: 110px;
+  }
+
+  .hero-header #header-carousel.owl-carousel .owl-nav {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .hero-header #header-carousel.owl-carousel .owl-nav button {
+    margin: 10px;
+    border-radius: 3px;
+    padding-bottom: 5px !important;
+  }
+
+
+  .hearo-header-containers {
+    height: 100%;
+    min-height: 800px;
+  }
+
+  .hearo-header-containers::after {
+    height: 100%;
+  }
+
+  .hero-form {
+    padding: 5px 5px;
+    margin: 10px 10px 10px 10px !important;
+  }
+
+}
+
+.Donate-theory{
+  background-image: url(../Images/rESULTOF.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0px;
+}
+.Donate-theory .sec-heading{
+  margin-bottom: 50px;
+}
+.CTA-section label{
+  color: white;
+}
+.CTA-section input{
+  border: none !important;
+  border-bottom: 1px solid white !important;
+  background-color: transparent !important;
+  border-radius: 0px !important;
+  color: white !important;
+}
+.CTA-section input::placeholder{
+  color: white;
+}
+.CTA-section textarea{
+  border: none !important;
+  border-bottom: 1px solid white !important;
+  background-color: transparent !important;
+  border-radius: 0px !important;
+  color: white !important;
+}
+.CTA-section textarea::placeholder{
+  color: white;
+}
