@@ -55,21 +55,12 @@ body {
     filter: none;
   }
   .navbar .logo img{
-    width: 150px;
-    /* height: 100px; */
     object-fit: contain;
     filter: brightness(1);
     padding-left: 10px;
+    height: 70px;
   } 
-  @media (max-width:1240px) {
-    .navbar .logo img {
-      width: 100px !important;
-    }  
-  }
   @media (max-width:991px) {
-    .navbar .logo img {
-      width: 100px !important;
-    }  
     .nav-links li a{
       color: white !important;
     }
@@ -218,7 +209,7 @@ body {
       padding: 0px 15px !important;
     }
     .navbar .logo img{
-      width: 100px;
+      height: 60px;
       /* height: 80px; */
     }
   }

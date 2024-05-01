@@ -12,7 +12,7 @@
 }
 
 body {
-  font-family: "Volkhov", serif;
+  font-family: "Tinos", serif !important;
   color: rgb(61, 61, 61);
 }
 #about-us, #what-makes-us-unique , #what-we-do, #non-recourse-loan, #projects, #contact-us{
@@ -127,6 +127,76 @@ p {
   font-weight: 700;
   font-family: "Playfair Display", serif;
 }
+
+/* Footer css starts here */
+footer {
+  background-color: rgb(248, 252, 255);
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  font-weight: 600;
+}
+.footer-wrapper .logo img{
+  width: 135px !important;
+  height: 135px !important;
+  object-fit: contain;
+  aspect-ratio: 1/1;
+}
+.footer-wrapper a{
+  text-decoration: none;
+  transition: 0.2s;
+  margin-right: 15px;
+}
+.footer-wrapper a:hover{
+  text-decoration: underline;
+}
+.footer-call svg{
+  width: 30px;
+  height: 30px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  background: var(--primary);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.social-icon svg {
+  width: 30px;
+  height: 30px;
+  aspect-ratio: 1/1;
+  fill: black !important;
+}
+@media (max-width:991px) {
+  .footer-wrapper a{
+    font-size: 14px;
+    text-align: left;
+  }
+  .footer-call svg{
+    width: 20px;
+    height: 20px;
+  }
+  .footer-wrapper a{
+    margin-right: 0px;
+  }
+}
+
+.insta.social-icon,
+.youtube.social-icon,
+.twitter.social-icon {
+  padding: 10px;
+}
+
 @media (max-width:991px) {
   .hero-header-container .content h4{
     color: var(--secondary);
@@ -207,6 +277,36 @@ p {
     padding: 5px 5px;
     margin: 10px 10px 10px 10px !important;
   }
+    /* Footer css starts here */
+    .footer-wrapper {
+      flex-direction: column;
+    }
+  
+    .social-icon {
+      width: 40px;
+      height: 40px;
+      padding: 5px;
+      background: var(--primary);
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 5px;
+    }
+  
+    .social-icon svg {
+      width: 30px;
+      height: 30px;
+      aspect-ratio: 1/1;
+      fill: white !important;
+    }
+  
+    .insta.social-icon,
+    .youtube.social-icon,
+    .twitter.social-icon {
+      padding: 10px;
+    }
+  
 
 }
 
@@ -243,3 +343,4 @@ p {
 .CTA-section textarea::placeholder{
   color: white;
 }
+
